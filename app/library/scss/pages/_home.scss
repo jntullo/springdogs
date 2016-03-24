@@ -1,0 +1,22 @@
+.home{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	figure{
+		display: flex;
+		flex-flow: column;
+	}
+
+	figcaption{		
+		background-color: $sbx-orange;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 300;
+		padding: 10px;
+		a{
+			display: block;
+			color: #000;
+		}
+	}
+}

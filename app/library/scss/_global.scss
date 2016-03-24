@@ -1,0 +1,46 @@
+$sbx-dark-tourq: #092c34;
+$sbx-orange: #F58530;
+$sbx-tourq: #006775;
+$sbx-sand: #D7E19C;
+$sbx-blue-green: #00AAA1;
+
+*{
+	box-sizing: border-box;
+}
+
+html,body,h1,h2,h3,h4,ul,ul li{
+	margin:0;
+	padding:0;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	color: $sbx-orange;
+	text-decoration: none;
+}
+
+body{
+	background-color: $sbx-tourq;
+	font-size:16px;
+	font-family: "proxima-nova";
+}
+
+h1 {
+	font-weight: 700;
+}
+
+header{
+	background-color: $sbx-dark-tourq;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:10px 20px;
+	box-shadow: 0 0 5px;
+	h1 a{
+		color: $sbx-blue-green;
+	}
+}
+

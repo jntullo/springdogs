@@ -1,0 +1,25 @@
+.new-dog{
+	form{
+		padding: 50px;
+		width:100%;
+		border-radius: 30px;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	input{
+		&[type="text"]{
+			display: block;
+			width: 100%;
+			border: 1px solid $sbx-dark-tourq;
+			margin: 10px 0;
+			padding:10px;
+		}
+
+		&[type="submit"]{
+			display: inline-block;
+			background-color: $sbx-sand;
+			border: 0;
+			padding:10px 40px;
+		}
+	}
+}

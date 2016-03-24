@@ -1,0 +1,15 @@
+<div class="{{body_class}}">
+	
+	<form class="new-dog" name="newDogForm">
+
+		<img ngf-thumbnail="file || '/thumb.jpg'">
+		
+		<div class="button" ngf-select="upload($file)" ngf-accept="'image/*'">Upload on file select</div>
+		<input type="text" placeholder="Dog Name" ng-model="dog.name" required />
+		<input type="text" placeholder="Dog Type" ng-model="dog.type" required />
+		<input type="text" placeholder="Owner Name" ng-model="dog.owner" required />
+		<input type="submit" value="Submit" ng-click="submitdog(dog)" />
+	</form>
+
+	<div ng-show="success">{{ dog.name }} has been added</div>
+</div>
